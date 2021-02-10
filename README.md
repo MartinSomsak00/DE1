@@ -1,6 +1,6 @@
 # DE1
 
-##druhy nadpis
+## druhy nadpis
 
 **text druhe casti**
 
