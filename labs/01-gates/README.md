@@ -11,8 +11,8 @@
 | 1 | 1 | 0 | 0 |
 | 1 | 1 | 1 | 0 |
 
-![DE](Images/02.png)
 
+De Morgan's laws 
 [EDAPLAYGROUND](https://www.edaplayground.com/x/teEU)
 
 ```VHDL
@@ -24,4 +24,23 @@ begin
 
 end architecture dataflow;
 ```
+![DE](Images/02.png)
 
+
+Distributive laws + Boolean postulates
+[EDAPLAYGROUND](https://www.edaplayground.com/x/Edes)
+```VHDL
+architecture dataflow of gates is
+begin
+      f1_o <= x_i and (not x_i);
+      f2_o <= x_i or (not x_i);
+      f3_o <= x_i or  x_i  or  x_i  or  x_i;
+      f4_o <= x_i and  x_i  and  x_i  and x_i;
+      f11_o <= (x_i and  y_i) or (x_i and  z_i);
+      f12_o <= x_i and (y_i or z_i);
+      f21_o <= ((x_i or y_i) and (x_i or z_i));
+      f22_o <= x_i or (y_i and  z_i);
+
+end architecture dataflow;
+```
+![DE](Images/04.png)
