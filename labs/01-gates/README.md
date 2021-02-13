@@ -26,7 +26,7 @@ begin
 
 end architecture dataflow;
 ```
-![DE](Images/02.png)
+![DE](Images/02.png)  (obrazek se nezobrazuje ani ve formátu JPG ani PNG jsou však nahrané v labs/01-gates/images)
 
 
 Distributive laws + Boolean postulates
@@ -45,4 +45,4 @@ begin
 
 end architecture dataflow;
 ```
-![DE](Images/04.png)
+![DE](Images/04.png) (obrazek se nezobrazuje ani ve formátu JPG ani PNG jsou však nahrané v labs/01-gates/images)
