@@ -1,3 +1,5 @@
+odkaz na repositar [DE1](https://github.com/MartinSomsak00/DE1) 
+
 01 - gates
 
 | **c** | **b** |**a** | **f(c,b,a)** |
