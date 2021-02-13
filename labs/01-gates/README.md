@@ -13,6 +13,8 @@
 
 ![DE](Images/02.png)
 
+[EDAPLAYGROUND](https://www.edaplayground.com/x/teEU)
+
 ```VHDL
 architecture dataflow of gates is
 begin
