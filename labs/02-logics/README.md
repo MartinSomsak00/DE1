@@ -1,3 +1,5 @@
+odkaz na repositar [DE1](https://github.com/MartinSomsak00/DE1) 
+
 # CV-02-Logic
 ## Task1
 | **Dec. equivalent** | **B[1:0]** | **A[1:0]** | **B is greater than A** | **B equals A** | **B is less than A** |
