@@ -23,5 +23,12 @@
 ## Task2
 
 ![B>A](images/BgreaterA.png) 
+
+B>A=B1*!A1+B1*B0*!A0+B0*!A0*!A1
+
 ![B=A](images/BequalsA.png) 
+
 ![B<A](images/BlessA.png) 
+
+B<A=(!B1+A1)*(!B0+A1)*(A1+A0)*(!B1+!B0)*(!B1+A0)
+
