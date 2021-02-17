@@ -33,17 +33,19 @@ B>A=B1*!A1+B1*B0*!A0+B0*!A0*!A1
 B<A=(!B1+A1)*(!B0+A1)*(A1+A0)*(!B1+!B0)*(!B1+A0)
 
 ## Task3
+(při přepisování kódu na 4-bit sem upravil na .._4bit pouze komentáře)
 
 VHDL code (design.vhd)
 
 ```vhdl
+
 library ieee;
 use ieee.std_logic_1164.all;
 
 ------------------------------------------------------------------------
--- Entity declaration for 2-bit binary comparator
+-- Entity declaration for 4-bit binary comparator
 ------------------------------------------------------------------------
-entity comparator_4bit is
+entity comparator_2bit is
     port(
         a_i           : in  std_logic_vector(4 - 1 downto 0);
         b_i           : in  std_logic_vector(4 - 1 downto 0);
@@ -58,12 +60,12 @@ entity comparator_4bit is
         
         
     );
-end entity comparator_4bit;
+end entity comparator_2bit;
 
 ------------------------------------------------------------------------
 -- Architecture body for 4-bit binary comparator
 ------------------------------------------------------------------------
-architecture Behavioral of comparator_4bit is
+architecture Behavioral of comparator_2bit is
 begin
     B_greater_A_o <= '1' when (b_i > a_i) else '0';
     B_less_A_o <= '1' when (b_i < a_i) else '0';
@@ -73,7 +75,6 @@ begin
 
 
 end architecture Behavioral;
-	
 	```
 	
 	VHDL testbench (testbench.vhd)
@@ -101,7 +102,7 @@ architecture testbench of tb_comparator_2bit is
     signal s_B_less_A    : std_logic;
 
 begin
-    -- Connecting testbench signals with comparator_2bit entity (Unit Under Test)
+    -- Connecting testbench signals with comparator_4bit entity (Unit Under Test)
     uut_comparator_2bit : entity work.comparator_2bit
         port map(
             a_i           => s_a,
