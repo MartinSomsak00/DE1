@@ -197,6 +197,19 @@ begin
 
 end architecture testbench;
 ```
+chybová hláška pro poslední kombinaci kde se 0101 má rovnat 0101 ale je naschvál napsáno že má být B<A
+
+```vhdl
+analyze design.vhd
+analyze testbench.vhd
+elaborate tb_comparator_2bit
+testbench.vhd:51:9:@0ms:(report note): Stimulus process started
+testbench.vhd:111:9:@1us:(assertion error): Test failed for input combination: 0101, 0101
+testbench.vhd:125:9:@1us:(report note): Stimulus process finished
+Finding VCD file...
+./dump.vcd
+```
+
 ![simulated time waveforms](images/02graf.png) 
 
 [EDAPLAYGROUND](https://www.edaplayground.com/x/RCQs)
