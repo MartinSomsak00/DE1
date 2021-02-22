@@ -24,13 +24,13 @@ odkaz na repositar [DE1](https://github.com/MartinSomsak00/DE1)
 
 ## Task2
 
-![B>A](images/BgreaterA.png) (obrazek se nezobrazuje ani ve formátu JPG ani PNG jsou však nahrané v labs/02-logics/images)
+![B>A](images/BgreaterA.PNG) (obrazek se nezobrazuje ani ve formátu JPG ani PNG jsou však nahrané v labs/02-logics/images)
 
 B>A=B1*!A1+B1*B0*!A0+B0*!A0*!A1
 
-![B=A](images/BequalsA.png) (obrazek se nezobrazuje ani ve formátu JPG ani PNG jsou však nahrané v labs/02-logics/images)
+![B=A](images/BequalsA.PNG) (obrazek se nezobrazuje ani ve formátu JPG ani PNG jsou však nahrané v labs/02-logics/images)
 
-![B<A](images/BlessA.png)    (obrazek se nezobrazuje ani ve formátu JPG ani PNG jsou však nahrané v labs/02-logics/images)
+![B<A](images/BlessA.PNG)    (obrazek se nezobrazuje ani ve formátu JPG ani PNG jsou však nahrané v labs/02-logics/images)
 
 B<A=(!B1+A1)*(!B0+A1)*(A1+A0)*(!B1+!B0)*(!B1+A0)
 
