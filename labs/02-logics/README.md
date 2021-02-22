@@ -23,15 +23,15 @@ odkaz na repositar [DE1](https://github.com/MartinSomsak00/DE1)
 
 
 ## Task2
-
+###B>A
 ![B>A](images/BgreaterA.PNG) 
-B>A=B1*!A1+B1*B0*!A0+B0*!A0*!A1
 
+###B=A
 ![B=A](images/BequalsA.PNG) 
-
+###B>A
 ![B<A](images/BlessA.PNG)    
 
-B<A=(!B1+A1)*(!B0+A1)*(A1+A0)*(!B1+!B0)*(!B1+A0)
+
 
 ## Task3
 (při přepisování kódu na 4-bit sem upravil na .._4bit pouze komentáře)
