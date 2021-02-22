@@ -218,7 +218,7 @@ Finding VCD file...
 ./dump.vcd
 ```
 
-![simulated time waveforms](images/02graf.png) 
+![simulated time waveforms](images/02graf.PNG) 
 
 [EDAPLAYGROUND](https://www.edaplayground.com/x/RCQs)
 
