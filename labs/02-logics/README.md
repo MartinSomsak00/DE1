@@ -32,7 +32,7 @@ odkaz na repositar [DE1](https://github.com/MartinSomsak00/DE1)
 
 ![B=A](images/BequalsA.PNG) 
 
-### B>A
+### B<A
 
 ![B<A](images/BlessA.PNG)    
 
