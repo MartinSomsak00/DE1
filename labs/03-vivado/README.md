@@ -3,7 +3,7 @@
 
 
 
-
+# Task 2
 
 ## Listing of VHDL architecture
 
@@ -56,3 +56,53 @@ end architecture testbench;
 ```
 
 ![simulated time waveforms](images/graf.PNG) 
+
+
+# Task 3
+## Vivado tutorial
+
+![tutorial](images/tutorial1.PNG) 
+
+### If you want to add any source files right away,
+### go and use the instructions in adding source file 
+### otherwise press next until you get here. 
+### If you want to use specific parts or board select it here or in section parts. 
+### I am going to use NexysA7-50T for this project. 
+### Also if you cant find the board you are looking for try to Install/Update Boards 
+### via. The button in the upper right corner. 
+
+![tutorial](images/tutorial2.PNG)
+
+### Then go next and finish  
+
+### Adding source file:
+
+![tutorial](images/tutorial3.PNG) 
+
+![tutorial](images/tutorial4.PNG) 
+
+![tutorial](images/tutorial5.PNG) 
+
+![tutorial](images/tutorial6.PNG) 
+
+### adding testbench file:
+
+![tutorial](images/tutorial7.PNG) 
+
+![tutorial](images/tutorial8.PNG) 
+
+### Then open/edit the testbench file same way as the design file.
+
+
+### Adding XDC constraints file :
+
+![tutorial](images/tutorial9.PNG) 
+
+![tutorial](images/tutorial10.PNG) 
+
+### The file with your board should be here [digilent library](https://github.com/Digilent/digilent-xdc). 
+### Just find your board fit Ctrl+F and copy what’s imide into your opened folder  (.xdc) in Vivado.
+
+### Simulation :
+
+![tutorial](images/tutorial11.PNG)  

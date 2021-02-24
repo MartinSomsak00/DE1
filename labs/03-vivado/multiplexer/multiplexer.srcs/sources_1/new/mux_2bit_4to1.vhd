@@ -35,7 +35,7 @@ entity mux_2bit_4to1 is
 end entity mux_2bit_4to1;
 
 ------------------------------------------------------------------------
--- Architecture body for 4-bit binary comparator
+-- Architecture body for multiplexer 4 to 1
 ------------------------------------------------------------------------
 architecture Behavioral of mux_2bit_4to1 is
 begin
@@ -44,7 +44,7 @@ begin
            c_i when (sel_i = "10") else 
            d_i;
 
-    -- WRITE "EQUALS" AND "LESS" ASSIGNMENTS HERE
+   
 
 
 end architecture Behavioral;

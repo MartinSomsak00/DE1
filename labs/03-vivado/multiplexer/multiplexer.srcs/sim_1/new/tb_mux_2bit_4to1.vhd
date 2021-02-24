@@ -67,7 +67,7 @@ begin
        s_d <= "00"; s_c <= "00"; s_b <= "00"; s_a <= "00"; 
        s_sel <= "11"; wait for 100ns;
            
-      -- WRITE OTHER TESTS HERE
+    
       
 
 
