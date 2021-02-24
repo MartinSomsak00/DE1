@@ -59,21 +59,22 @@ end architecture testbench;
 
 
 # Task 3
+
 ## Vivado tutorial
 
 ![tutorial](images/tutorial1.PNG) 
 
-### If you want to add any source files right away,
-### go and use the instructions in adding source file 
-### otherwise press next until you get here. 
-### If you want to use specific parts or board select it here or in section parts. 
-### I am going to use NexysA7-50T for this project. 
-### Also if you cant find the board you are looking for try to Install/Update Boards 
-### via. The button in the upper right corner. 
+ If you want to add any source files right away,
+ go and use the instructions in adding source file 
+ otherwise press next until you get here. 
+ If you want to use specific parts or board select it here or in section parts. 
+ I am going to use NexysA7-50T for this project. 
+ Also if you cant find the board you are looking for try to Install/Update Boards 
+ via. The button in the upper right corner. 
 
 ![tutorial](images/tutorial2.PNG)
 
-### Then go next and finish  
+ Then go next and finish  
 
 ### Adding source file:
 
@@ -91,7 +92,7 @@ end architecture testbench;
 
 ![tutorial](images/tutorial8.PNG) 
 
-### Then open/edit the testbench file same way as the design file.
+ Then open/edit the testbench file same way as the design file.
 
 
 ### Adding XDC constraints file :
@@ -100,8 +101,8 @@ end architecture testbench;
 
 ![tutorial](images/tutorial10.PNG) 
 
-### The file with your board should be here [digilent library](https://github.com/Digilent/digilent-xdc). 
-### Just find your board fit Ctrl+F and copy what’s imide into your opened folder  (.xdc) in Vivado.
+ The file with your board should be here [digilent library](https://github.com/Digilent/digilent-xdc). 
+ Just find your board fit Ctrl+F and copy what’s imide into your opened folder  (.xdc) in Vivado.
 
 ### Simulation :
 
