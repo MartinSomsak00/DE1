@@ -1,6 +1,10 @@
 
 
+# 	Task 1
 
+## LED 0-15 jsou v režimu active High
+
+![table](images/task1.PNG) 
 
 
 # Task 2
