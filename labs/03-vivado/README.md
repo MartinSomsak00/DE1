@@ -3,6 +3,7 @@
 # 	Task 1
 
 ## LED 0-15 jsou v režimu active High
+pozn. každý switch má rezistor 10k a každá LED dioda má předřadný odpor 330 
 
 ![table](images/task1.PNG) 
 
