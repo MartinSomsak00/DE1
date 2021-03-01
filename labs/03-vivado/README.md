@@ -1,4 +1,4 @@
-
+odkaz na repositar [DE1](https://github.com/MartinSomsak00/DE1) 
 
 # 	Task 1
 
