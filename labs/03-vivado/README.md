@@ -55,6 +55,8 @@ end architecture Behavioral;
 end architecture testbench;
 ```
 
+Screenshot with simulated time waveforms 
+
 ![simulated time waveforms](images/graf.PNG) 
 
 
