@@ -1,6 +1,6 @@
 odkaz na repositar [DE1](https://github.com/MartinSomsak00/DE1) 
 
-#Task 1
+# Task 1
 
 ## 7-segment displays on Nexys A7 board
 
@@ -27,7 +27,7 @@ odkaz na repositar [DE1](https://github.com/MartinSomsak00/DE1)
 | E | 1110 | 0 | 1 | 1 | 0 | 0 | 0 | 0 |
 | F | 1111 | 0 | 1 | 1 | 1 | 0 | 0 | 0 |
 
-#Task 2
+# Task 2
 
 ## Listing of VHDL architecture 
  
