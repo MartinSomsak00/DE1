@@ -147,6 +147,10 @@ p_stimulus : process
 | E | 1110 | 0 | 1 | 0 | 0 |
 | F | 1111 | 0 | 1 | 1 | 0 |
 
+
+## listing of VHDL code for LEDs(7:4)
+
+
 ```vhdl
  LED(4) <= '1' when (SW = "0000") else '0';
         
