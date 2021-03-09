@@ -124,7 +124,7 @@ p_stimulus : process
            seg_o(0)   => CG
         );
 ```
-#Task 3
+
 
 # Task 3
 
