@@ -146,3 +146,34 @@ p_stimulus : process
 | D | 1101 | 0 | 1 | 1 | 0 |
 | E | 1110 | 0 | 1 | 0 | 0 |
 | F | 1111 | 0 | 1 | 1 | 0 |
+
+```vhdl
+ LED(4) <= '1' when (SW = "0000") else '0';
+        
+        LED(5) <= '1' when (SW = "1010") else '0',
+              '1' when (SW = "1011") else '0',
+              '1' when (SW = "1100") else '0',
+              '1' when (SW = "1101") else '0',
+              '1' when (SW = "1110") else '0',
+              '1' when (SW = "1111") else '0';
+              
+        LED(6) <= '1' when (SW = "0001") else '0',
+              '1' when (SW = "0011") else '0',
+              '1' when (SW = "0101") else '0',
+              '1' when (SW = "0111") else '0',
+              '1' when (SW = "1001") else '0',
+              '1' when (SW = "1011") else '0',
+              '1' when (SW = "1101") else '0',
+              '1' when (SW = "1111") else '0';
+           
+        LED(7) <= '1' when (SW = "0001") else '0',
+              '1' when (SW = "0010") else '0',
+              '1' when (SW = "0100") else '0',
+              '1' when (SW = "1000") else '0';
+                
+end architecture Behavioral;
+```
+
+## Screenshot with simulated time waveforms
+
+![7segwaveforms](images/graf2.PNG)

@@ -2,9 +2,9 @@
 -- Company: 
 -- Engineer: 
 -- 
--- Create Date: 03.03.2021 13:28:43
+-- Create Date: 09.03.2021 18:54:16
 -- Design Name: 
--- Module Name: tb_hex7seg - Behavioral
+-- Module Name: tb_top - Behavioral
 -- Project Name: 
 -- Target Devices: 
 -- Tool Versions: 
@@ -31,50 +31,58 @@ use IEEE.STD_LOGIC_1164.ALL;
 --library UNISIM;
 --use UNISIM.VComponents.all;
 
-entity tb_hex7seg is
---  Port ( );
-end tb_hex7seg;
+entity tb_top is
+ --Port ( );
+end tb_top;
 
-architecture Behavioral of tb_hex7seg is
-
-  -- Local signals
-    signal s_hex       : std_logic_vector(4 - 1 downto 0);
-    signal s_seg      : std_logic_vector(7 - 1 downto 0);
-   
-
+architecture Behavioral of tb_top is
+        signal s_SW : std_logic_vector(4 - 1 downto 0);
+        signal s_CA : std_logic;
+        signal s_CB : std_logic;
+        signal s_CC : std_logic;
+        signal s_CD : std_logic;
+        signal s_CE : std_logic;
+        signal s_CF : std_logic;
+        signal s_CG : std_logic;
+        signal s_AN :	std_logic_vector(8 - 1 downto 0);
+        signal s_LED :	std_logic_vector(8 - 1 downto 0);
 begin
 
-uut_comparator_2bit : entity work.hex_7seg
-        port map(
-           hex_i   => s_hex,
-           seg_o    =>s_seg
+uut_top : entity work.top
+    port map(
+        SW => s_SW,
+        CA => s_CA,
+        CB => s_CB,
+        CC => s_CC,
+        CD => s_CD,
+        CE => s_CE,
+        CF => s_CF,
+        CG => s_CG,
+        AN => s_AN,
+        LED => S_LED
         );
-
- p_stimulus : process
+        
+    p_stimulus : process
     begin
-        -- Report a note at the begining of stimulus process
+        
         report "Stimulus process started" severity note;
         
-        s_hex <= "0000"; wait for 100ns;
-        s_hex <= "0001"; wait for 100ns;
-        s_hex <= "0010"; wait for 100ns;
-        s_hex <= "0011"; wait for 100ns;
-        s_hex <= "0100"; wait for 100ns;
-        s_hex <= "0101"; wait for 100ns;
-        s_hex <= "0110"; wait for 100ns;
-        s_hex <= "0111"; wait for 100ns;
-        s_hex <= "1000"; wait for 100ns;
-        s_hex <= "1001"; wait for 100ns;
-        s_hex <= "1010"; wait for 100ns;
-        s_hex <= "1011"; wait for 100ns;
-        s_hex <= "1100"; wait for 100ns;
-        s_hex <= "1101"; wait for 100ns;
-        s_hex <= "1110"; wait for 100ns;
-        s_hex <= "1111"; wait for 100ns;
- 
- 
-       end process p_stimulus;
-
-
+        s_SW <= "0000"; wait for 100ns;
+        s_SW <= "0001"; wait for 100ns;
+        s_SW <= "0010"; wait for 100ns;
+        s_SW <= "0011"; wait for 100ns;
+        s_SW <= "0100"; wait for 100ns;
+        s_SW <= "0101"; wait for 100ns;
+        s_SW <= "0110"; wait for 100ns;
+        s_SW <= "0111"; wait for 100ns;
+        s_SW <= "1000"; wait for 100ns;
+        s_SW <= "1001"; wait for 100ns;
+        s_SW <= "1010"; wait for 100ns;
+        s_SW <= "1011"; wait for 100ns;
+        s_SW <= "1100"; wait for 100ns;
+        s_SW <= "1101"; wait for 100ns;
+        s_SW <= "1110"; wait for 100ns;
+        s_SW <= "1111"; wait for 100ns;   
         
+        end process p_stimulus; 
 end Behavioral;
