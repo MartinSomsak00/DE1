@@ -70,11 +70,11 @@ begin
     p_reset_gen : process
     begin
         s_reset <= '0';
-        wait for 12 ns;
+        wait for 50 ns;
         
         -- Reset activated
         s_reset <= '1';
-        wait for 73 ns;
+        wait for 100 ns;
 
         s_reset <= '0';
         wait;
