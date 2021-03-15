@@ -3,7 +3,7 @@ odkaz na repositar [DE1](https://github.com/MartinSomsak00/DE1)
 # Task 1 
 
 ## connection of push buttons on Nexys A7 board
-| **BTNX-PIN** | **BTNX-PORT** | **BTNX-PUSHED-SIGNAL** |
+| **PIN** | **PORT** | **VALUE** |
 | :-: | :-: | :-: |
 | N17 | BTNC | 1 |
 | M18 | BTNU | 1 |
