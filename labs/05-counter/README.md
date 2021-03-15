@@ -136,7 +136,7 @@ odkaz na repositar [DE1](https://github.com/MartinSomsak00/DE1)
 ```
 
 
-Images of the top layer 4 and a 16-bit counters
+## Images of the top layer 4 and a 16-bit counters
 
    ![top4](images/TOP4.PNG)
    
