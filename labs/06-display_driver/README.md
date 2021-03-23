@@ -275,3 +275,5 @@ begin
 # Task 3
 
 ## Image of the driver schematic
+
+![driver](images/driver.PNG)
