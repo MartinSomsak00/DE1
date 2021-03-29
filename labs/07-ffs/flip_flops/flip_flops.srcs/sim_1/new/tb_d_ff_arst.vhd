@@ -59,7 +59,7 @@ uut_d_ff_arst : entity work.d_ff_arst
     --------------------------------------------------------------------
     p_clk_gen : process
     begin
-        while now < 750 ns loop         -- 75 periods of 100MHz clock
+        while now < 750 ns loop        
             s_clk <= '0';
             wait for c_CLK_100MHZ_PERIOD / 2;
             s_clk <= '1';
@@ -74,9 +74,9 @@ uut_d_ff_arst : entity work.d_ff_arst
     p_reset_gen : process
     begin
         s_arst <= '0';
-        wait for 30 ns;
+        wait for 13 ns;
         s_arst <= '1';                 -- Reset activated
-        wait for 10 ns;
+        wait for 20 ns;
         s_arst <= '0';
         wait;
     end process p_reset_gen;
@@ -84,9 +84,9 @@ uut_d_ff_arst : entity work.d_ff_arst
     p_stimulus : process
     begin
         -- Report a note at the begining of stimulus process
-        report "Stimulus process started. " severity note;
+        report "Stimulus process started." severity note;
         s_d     <=  '1';
-        wait for 13ns;
+        wait for 10ns;
         assert (s_q = '0' and s_q_bar = '1') 
         report "Failed 1" severity note;
         
@@ -113,6 +113,6 @@ uut_d_ff_arst : entity work.d_ff_arst
         
         report "Stimulus process ended. " severity note;
         wait;
-    end process p_stimulus;        
+    end process p_stimulus;       
 
 end Behavioral;

@@ -80,42 +80,20 @@ uut_d_latch : entity work.d_latch
         
         s_d     <=  '0'; 
         wait for 10 ns; 
-        
         wait for 10 ns;
-        
-        
-        
         s_d     <=  '1';
         wait for 10ns;
-        assert (s_q = '0' and s_q_bar = '1') 
-        report "Failed 1" severity note;
-        
         s_d     <=  '0';
         wait for 10ns;
-        assert (s_q = '0' and s_q_bar = '1') 
-        report "Failed 2" severity note;
-        
-        
         s_en    <=  '1';
         s_d     <=  '1';
         wait for 10ns;
-        assert (s_q = '1' and s_q_bar = '0') 
-        report "Failed 3" severity note;
-       
         s_en    <=  '1';
         s_d     <=  '0';
         wait for 10ns;
-        assert (s_q = '0' and s_q_bar = '1')
-        report "Failed 4" severity note;
-        
-        
         s_en    <=  '1';
         s_d     <=  '1';
         wait for 10ns;
-        
-        assert (s_q = '0' and s_q_bar = '1') 
-        report "Failed 5" severity note;
-        
         report "Stimulus process end." severity note;
         wait;
     end process p_stimulus;

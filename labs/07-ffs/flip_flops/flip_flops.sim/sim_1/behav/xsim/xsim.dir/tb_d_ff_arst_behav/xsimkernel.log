@@ -1,7 +1,7 @@
-Running: xsim.dir/tb_d_ff_arst_behav/xsimk.exe -simmode gui -wdb tb_d_ff_arst_behav.wdb -simrunnum 0 -socket 50732
+Running: xsim.dir/tb_d_ff_arst_behav/xsimk.exe -simmode gui -wdb tb_d_ff_arst_behav.wdb -simrunnum 0 -socket 52996
 Design successfully loaded
-Design Loading Memory Usage: 5772 KB (Peak: 5772 KB)
+Design Loading Memory Usage: 6280 KB (Peak: 6280 KB)
 Design Loading CPU Usage: 15 ms
 Simulation completed
-Simulation Memory Usage: 6324 KB (Peak: 6324 KB)
+Simulation Memory Usage: 6852 KB (Peak: 6852 KB)
 Simulation CPU Usage: 30 ms
