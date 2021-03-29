@@ -278,6 +278,8 @@ p_d_ff_arst : process(clk, arst)
     end process p_stimulus;
 ```
 
+## Screenshot with simulated time waveforms :
+
 ![waveforms](images/graf3.PNG)
 
 ## p_jk_ff_rst
@@ -377,6 +379,8 @@ p_reset_gen : process
     end process p_stimulus;
 ```
 
+## Screenshot with simulated time waveforms :
+
 ![waveforms](images/graf4.PNG)
 
 ## p_t_ff_rst
@@ -455,6 +459,7 @@ p_reset_gen : process
         wait;
     end process p_stimulus;
 ```
+## Screenshot with simulated time waveforms :
 
 ![waveforms](images/graf5.PNG)
 
