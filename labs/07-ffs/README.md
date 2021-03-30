@@ -468,6 +468,6 @@ p_reset_gen : process
 
 ## Shift register
 
-
+![shift](images/shift.PNG)
 
 
