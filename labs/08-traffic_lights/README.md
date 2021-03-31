@@ -22,7 +22,7 @@ odkaz na repositar [DE1](https://github.com/MartinSomsak00/DE1)
 | LD16 | N15, M16, R12 | `1,0,0` |  |  |
 | LD17 |  |  |  |  |
 
-#Task 2 
+# Task 2 
 
 ## Listing of VHDL code of sequential process p_traffic_fsm
 
