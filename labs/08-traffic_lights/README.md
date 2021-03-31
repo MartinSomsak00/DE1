@@ -156,3 +156,14 @@ p_output_fsm : process(s_state)
 ![simulation](images/graf2.PNG)
 
 # Task 3 
+
+## State table
+
+| **Current state** | **Direction South** | **Direction West** | **Delay** | **Input (counter_en, sensor_west, sensor_south)** |
+| :-- | :-: | :-: | :-: | :-: |
+| `STOP1`      | red    | red | 1 sec | n/c |
+| `WEST_GO`    | red    | green | 4 sec | 1,1,0 or 0, X, X goto WEST_GO else goto WEST_WAIT |
+| `WEST_WAIT`  | red    | yellow | 2 sec | n/c |
+| `STOP2`      | red    | red | 1 sec | n/c |
+| `SOUTH_GO`   | green  | red | 4 sec | 1,0,1 or 0, X, X goto SOUTH_GO else goto SOUTH_WAIT |
+| `SOUTH_WAIT` | yellow | red | 2 sec | n/c |
