@@ -13,7 +13,7 @@ odkaz na repositar [DE1](https://github.com/MartinSomsak00/DE1)
 
 ## connection of RGB LEDs on Nexys A7 board
 
-![LED](images/LED.png)
+![LED](images/LED.PNG)
 
 ## completed table with color settings
 
@@ -144,10 +144,10 @@ p_output_fsm : process(s_state)
 
 ## Screenshots of the simulation
 
-![simulation](images/graf1.png)
+![simulation](images/graf1.PNG)
 
 ### Zoomed 
  
-![simulation](images/graf2.png)
+![simulation](images/graf2.PNG)
 
 # Task 3 
