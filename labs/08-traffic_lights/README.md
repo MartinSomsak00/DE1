@@ -24,6 +24,11 @@ odkaz na repositar [DE1](https://github.com/MartinSomsak00/DE1)
 
 # Task 2 
 
+## State diagram
+
+
+
+
 ## Listing of VHDL code of sequential process p_traffic_fsm
 
 ```vhdl
