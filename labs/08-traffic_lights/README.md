@@ -26,7 +26,7 @@ odkaz na repositar [DE1](https://github.com/MartinSomsak00/DE1)
 
 ## State diagram
 
-
+![diagram](images/D1.PNG)
 
 
 ## Listing of VHDL code of sequential process p_traffic_fsm
@@ -167,3 +167,7 @@ p_output_fsm : process(s_state)
 | `STOP2`      | red    | red | 1 sec | n/c |
 | `SOUTH_GO`   | green  | red | 4 sec | 1,0,1 or 0, X, X goto SOUTH_GO else goto SOUTH_WAIT |
 | `SOUTH_WAIT` | yellow | red | 2 sec | n/c |
+
+## State diagram 
+
+![diagram](images/D2.PNG)
